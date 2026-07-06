@@ -1,6 +1,6 @@
-#Coursera Data Courses Market Analysis Dashboard
+##Coursera Data Courses Market Analysis Dashboard
 
-#Project Overview
+##Project Overview
 
 The online learning industry has experienced rapid growth, making it increasingly important for education providers, learning platforms, and aspiring learners to understand market demand, course popularity, provider performance, and learner preferences.
 
@@ -8,7 +8,7 @@ This project analyzes Data Analytics-related courses available on Coursera to id
 
 The final solution is an interactive Power BI dashboard that provides a comprehensive view of the Coursera Data Analytics course landscape.
 
-#Business Problem
+##Business Problem
 
 With hundreds of data-related courses available online, it can be difficult to determine:
 
@@ -21,11 +21,11 @@ With hundreds of data-related courses available online, it can be difficult to d
 
 Without data-driven insights, educational providers risk creating courses that fail to meet learner demand and market expectations.
 
-#Project Objectives
+###Project Objectives
 
 This project was designed to answer the following business questions:
 
-#Market & Provider Analysis
+##Market & Provider Analysis
 
 Which course providers dominate the Data Analytics learning market?
 How many Data Analytics courses does each provider offer?
@@ -39,11 +39,11 @@ Which courses achieve the highest ratings?
 Is popularity correlated with course difficulty level?
 Which courses consistently perform well across ratings and reviews?
 
-#Data Collection Process
+##Data Collection Process
 
 The dataset was collected directly from Coursera using web scraping techniques.
 
-#Data Source
+##Data Source
 
 Coursera Website
 Data Acquisition Tool
@@ -65,11 +65,11 @@ The scraping process extracted course-related information including:
 *Power BI	Dashboard Development & Visualization
 *DAX	KPI Calculations and Metrics
 
-#Data Preparation
+##Data Preparation
 
 The dataset underwent several preprocessing steps before analysis:
 
-#Data Cleaning
+##Data Cleaning
 
 Removed unnecessary fields
 Standardized provider names
@@ -84,11 +84,11 @@ Aggregated provider statistics
 Calculated review-based popularity metrics
 Generated KPI measures using DAX
 
-#Dashboard KPIs
+##Dashboard KPIs
 
 The dashboard provides high-level performance indicators:
 
-#KPI	Value
+##KPI	Value
 
 *Total Courses	19
 *Total Reviews	734K
@@ -97,29 +97,29 @@ The dashboard provides high-level performance indicators:
 *Intermediate Courses	3
 *Advanced Courses	1
 
-#Analysis & Key Findings
+##Analysis & Key Findings
 
 1. Course Difficulty
 
 The Data Analytics learning market is heavily concentrated at the beginner level.
 
-#Findings:
+##Findings:
 
 *Beginner Courses: 15
 *Intermediate Courses: 3
 *Advanced Courses: 1
 
-#Insight
+##Insight
 
 The overwhelming majority of courses target entry-level learners, indicating that providers are focusing on capturing new entrants into the Data Analytics field.
 
-#Business Implication
+##Business Implication
 
 Educational providers can capitalize on the growing demand for beginner-friendly learning paths, while advanced-level offerings remain an underdeveloped market segment.
 
-#2. Provider Market Share Analysis
+##2. Provider Market Share Analysis
 
-#Top Course Providers
+##Top Course Providers
 
 Provider	            Number of Courses
 
@@ -132,19 +132,19 @@ PwC                  	          1
 Simplilearn	                    1
 University of Colorado Boulder	1
 
-#Key Insight
+##Key Insight
 
 IBM dominates the market with 8 courses, representing the largest course portfolio among all providers.
 
-#Business Implication
+##Business Implication
 
 IBM has established itself as a leading provider in the Data Analytics education space by maintaining a broad and diverse course offering.
 
-#3. Most Popular Courses (By Reviews)
+##3. Most Popular Courses (By Reviews)
 
 Learner reviews serve as a strong indicator of course popularity and enrollment interest.
 
-#Top Courses by Reviews
+##Top Courses by Reviews
 
 Course	                              Reviews
 
@@ -154,17 +154,17 @@ Foundations: Data, Data, Everywhere    	122K
 IBM Data Analyst	                      99K
 IBM Data Engineering	                  62K
 
-#Key Finding
+##Key Finding
 
-#🏆 Google Data Analytics is the most popular course with 180,000 reviews.
+##🏆 Google Data Analytics is the most popular course with 180,000 reviews.
 
-#Business Insight
+##Business Insight
 
 Google's professional certificate has achieved exceptional market traction and brand trust among learners pursuing Data Analytics careers.
 
-#4. Course Ratings Analysis
+##4. Course Ratings Analysis
 
-#Highest Rated Courses
+##Highest Rated Courses
 
 Course                                    	Rating
 Data Analytics with Python	                4.9
@@ -173,38 +173,38 @@ Foundations: Data, Data, Everywhere        	4.8
 Google Data Analytics                      	4.8
 Introduction to Data Analytics            	4.8
 
-#Key Finding
+##Key Finding
 
-#⭐ Data Analytics with Python is the highest-rated course with a rating of 4.9/5.
+##⭐ Data Analytics with Python is the highest-rated course with a rating of 4.9/5.
 
-#Business Insight
+##Business Insight
 
 Courses focused on practical Python-based analytics skills generate very high learner satisfaction and should be prioritized by education providers.
 
-#5. Duration Analysis
+##5. Duration Analysis
 
 
 The dashboard explores learner engagement across different course duration categories.
 
 
-#Key Observation
+##Key Observation
 
 Courses within the 3–6 Months duration category account for approximately 541K reviews, representing the largest concentration of learner engagement.
 
 
-#Insight
+##Insight
 
 
 Learners appear willing to commit to longer learning paths when those programs provide recognized certifications and structured career-oriented outcomes.
 
 
-#Business Implication
+##Business Implication
 
 
 Professional certificate programs and comprehensive learning tracks outperform shorter courses in terms of engagement and popularity.
 
 
-#6. Provider Performance Insights
+##6. Provider Performance Insights
 
 IBM
 
@@ -223,13 +223,13 @@ DeepLearning.AI
 Smaller course portfolio.
 Maintains strong ratings and learner satisfaction.
 
-#Insight
+##Insight
 
 Course quantity alone does not guarantee popularity. While IBM dominates by volume, Google leads in learner engagement through its flagship Data Analytics program.
 
-#Executive Summary
+##Executive Summary
 
-#Key Business Insights
+##Key Business Insights
 
 
 ✅ IBM is the dominant provider by course volume.
@@ -244,9 +244,9 @@ Course quantity alone does not guarantee popularity. While IBM dominates by volu
 
 ✅ Professional certification pathways attract the largest learner audiences.
 
-#Recommendations
+##Recommendations
 
-#For Educational Providers
+##For Educational Providers
 
 1. Expand Beginner-Level Offerings
 
@@ -269,15 +269,15 @@ Python-focused analytics courses receive exceptionally high ratings and should b
 Learners show strong preference for comprehensive multi-month programs that provide tangible career outcomes.
 
 
-#Conclusion
+##Conclusion
 
 
 This analysis reveals a rapidly growing Data Analytics education market dominated by beginner-friendly, certification-focused learning experiences. IBM leads the market in course offerings, while Google commands the strongest learner engagement through its flagship Data Analytics program. The findings demonstrate that learners value practical skills, structured learning pathways, and industry-recognized credentials.
 
-#The dashboard provides actionable insights that educational providers can leverage to optimize course development strategies, improve learner engagement, and strengthen their competitive position within the online learning ecosystem.
+##The dashboard provides actionable insights that educational providers can leverage to optimize course development strategies, improve learner engagement, and strengthen their competitive position within the online learning ecosystem.
 
 
-#Dashboard Features
+##Dashboard Features
 
 *Interactive KPI Cards
 *Provider Market Analysis
@@ -287,7 +287,7 @@ This analysis reveals a rapidly growing Data Analytics education market dominate
 *Duration-Based Filtering
 *Dynamic Slicers for Exploration
 
-#Author
+##Author
 
 Cosmos Isuru
 
